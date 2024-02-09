@@ -1,0 +1,553 @@
+<!-- Comment added by local branch -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sound Wave Music</title>
+    <link rel="stylesheet" href="style-index.css">
+    <link rel="stylesheet" href="style-playlist.css">
+    <script src="https://kit.fontawesome.com/b3348ae33f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="nav-bar">
+        <div class="short-circle mx">
+            <a class="d-inline-block" href="index.htm"><img src="resource/Logo.png" alt="logo"></a>
+        </div>
+        <div class="justify-start">
+            <p class="logoTittle">Sound wave</p>
+            <h2 class="logoTittle">Music</h2>
+        </div>
+        <div class="search-container mx">
+            <form>
+                <button type="submit" class="mic-search" id="search-icon"><i
+                        class="fa-sharp fa-solid fa-magnifying-glass "></i>
+                </button><label for="search"></label><input type="text" class="search-box" placeholder="Search songs"
+                    id="search" name="search-songs"><i class="fa-solid fa-microphone mic-search" id="mic-icon"></i>
+
+            </form>
+        </div>
+        <div class="notification mx"><i class="fa-sharp fa-solid fa-bell fa-xl"></i>
+            <span class="badge d-inline-block"></span>
+        </div>
+        <div class="short-circle mx" id="profile">
+            <img src="resource/my image .png" alt="">
+        </div>
+    </nav>
+    <!-- main container -->
+    <main class="main-container">
+        <div class="left">
+            <div id="left-container">
+                <div class="main-poster">
+                    <div class="poster-img" id="poster-img">
+                        <img src="resource/eng-img-4.jpeg" alt="img" id="posterImage">
+                    </div>
+                    <div class="about-poster">
+                        <div class="poster-header">
+                            <h1 class="tittle" id="posterTittle">Havana</h1>
+                            <p class="sub-tittle">978 Followers</p>
+                        </div>
+                        <div class="poster-content">
+                            <p class="sub-tittle" id="posterArtistName">Camila Cabello</p>
+                            <p class="description">
+                                Havana is a song recorded by Cuban-American singer Camila Cabello featuring fellow
+                                American rapper Young Thug.[1] It was released on August 3, 2017, along with "OMG", from
+                                her solo debut album, Camila (2018).[2] It was initially released as a promotional
+                                single, then was serviced to radio on September 8, 2017, as a single. Due to its rising
+                                success,
+                            </p>
+                        </div>
+                        <div class="down-section">
+                            <div class="button-section">
+                                <button type="submit">Play All</button><br>
+                                <p>Follow</p><br>
+                            </div>
+                            <span>288 tracks | 147 Albums</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- song list -->
+                <!-- <div class="songlist"> -->
+                <div class="list-container">
+                    <div>
+                        <a href="#" class="list">
+                            <span class="ml">01</span>
+                            <img aria-colspan="ml" src="resource/hindi-img-1.jpeg" alt="img" class="queueListImg ml">
+                            <p class="upper-line ml">Gadar-2 <br><span class="lower-line">Mithoon, Uttam Singh</span>
+                            </p>
+                            <i class="fa-sharp fa-regular fa-heart queue-list-icon"></i>
+                            <i class="fa-solid fa-plus queue-list-icon"></i>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#" class="list">
+                            <span class="ml">02</span>
+                            <img aria-colspan="ml" src="resource/hindi-img-2.jpeg" alt="img" class="queueListImg ml">
+                            <p class="upper-line ml">Alvida<br><span class="lower-line"> Nikhil D'Souza</span></p>
+                            <i class="fa-sharp fa-regular fa-heart queue-list-icon"></i>
+                            <i class="fa-solid fa-plus queue-list-icon"></i>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#" class="list">
+                            <span class="ml">03</span>
+                            <img aria-colspan="ml" src="resource/hindi-img-3.jpeg" alt="img" class="queueListImg ml">
+                            <p class="upper-line ml">Kho Gaye <br><span class="lower-line">Taaruk Raina</span></p>
+                            <i class="fa-sharp fa-regular fa-heart queue-list-icon"></i>
+                            <i class="fa-solid fa-plus queue-list-icon"></i>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#" class="list">
+                            <span class="ml">04</span>
+                            <img aria-colspan="ml" src="resource/hindi-img-4.jpeg" alt="img" class="queueListImg ml">
+                            <p class="upper-line ml">Pahali Dafa<br><span class="lower-line">Atif Aslam</span></p>
+                            <i class="fa-sharp fa-regular fa-heart queue-list-icon"></i>
+                            <i class="fa-solid fa-plus queue-list-icon"></i>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#" class="list">
+                            <span class="ml">05</span>
+                            <img aria-colspan="ml" src="resource/hindi-img-5.jpeg" alt="img" class="queueListImg ml">
+                            <p class="upper-line ml">Pathan<br><span class="lower-line">Arijit Singh, Sukriti Kakar
+                                </span></p>
+                            <i class="fa-sharp fa-regular fa-heart queue-list-icon"></i>
+                            <i class="fa-solid fa-plus queue-list-icon"></i>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#" class="list">
+                            <span class="ml">06</span>
+                            <img aria-colspan="ml" src="resource/hindi-img-6.jpeg" alt="img" class="queueListImg ml">
+                            <p class="upper-line ml">Meri Galati<br><span class="lower-line">Ambili Menon</span></p>
+                            <i class="fa-sharp fa-regular fa-heart queue-list-icon"></i>
+                            <i class="fa-solid fa-plus queue-list-icon"></i>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#" class="list">
+                            <span class="ml">07</span>
+                            <img aria-colspan="ml" src="resource/hindi-img-7.jpeg" alt="img" class="queueListImg ml">
+                            <p class="upper-line ml">Marjjawa <br><span class="lower-line">Arijit Singh</span></p>
+                            <i class="fa-sharp fa-regular fa-heart queue-list-icon"></i>
+                            <i class="fa-solid fa-plus queue-list-icon"></i>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#" class="list">
+                            <span class="ml">08</span>
+                            <img aria-colspan="ml" src="resource/eng-img-1.jpeg" alt="img" class="queueListImg ml">
+                            <p class="upper-line ml">KLOK <br><span class="lower-line">Tory Lanez </span></p>
+                            <i class="fa-sharp fa-regular fa-heart queue-list-icon"></i>
+                            <i class="fa-solid fa-plus queue-list-icon"></i>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#" class="list">
+                            <span class="ml">09</span>
+                            <img aria-colspan="ml" src="resource/eng-img-2.jpeg" alt="img" class="queueListImg ml">
+                            <p class="upper-line ml">Party Night<br><span class="lower-line">One Direction</span>
+                            </p>
+                            <i class="fa-sharp fa-regular fa-heart queue-list-icon"></i>
+                            <i class="fa-solid fa-plus queue-list-icon"></i>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#" class="list">
+                            <span class="ml">10</span>
+                            <img aria-colspan="ml" src="resource/eng-img-3.jpeg" alt="img" class="queueListImg ml">
+                            <p class="upper-line ml">you<br><span class="lower-line">Katy party </span></p>
+                            <i class="fa-sharp fa-regular fa-heart queue-list-icon"></i>
+                            <i class="fa-solid fa-plus queue-list-icon"></i>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#" class="list">
+                            <span class="ml">11</span>
+                            <img aria-colspan="ml" src="resource/eng-img-4.jpeg" alt="img" class="queueListImg ml">
+                            <p class="upper-line ml">Havana <br><span class="lower-line">Camila Cabillo</span></p>
+                            <i class="fa-sharp fa-regular fa-heart queue-list-icon"></i>
+                            <i class="fa-solid fa-plus queue-list-icon"></i>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#" class="list">
+                            <span class="ml">12</span>
+                            <img aria-colspan="ml" src="resource/eng-img-5.jpeg" alt="img" class="queueListImg ml">
+                            <p class="upper-line ml">Rockstar<br><span class="lower-line">Saulja Boys</span></p>
+                            <i class="fa-sharp fa-regular fa-heart queue-list-icon"></i>
+                            <i class="fa-solid fa-plus queue-list-icon"></i>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#" class="list">
+                            <span class="ml">13</span>
+                            <img aria-colspan="ml" src="resource/eng-img-6.jpeg" alt="img" class="queueListImg ml">
+                            <p class="upper-line ml">Toxic<br><span class="lower-line">BADSHAH</span></p>
+                            <i class="fa-sharp fa-regular fa-heart queue-list-icon"></i>
+                            <i class="fa-solid fa-plus queue-list-icon"></i>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#" class="list">
+                            <span class="ml">14</span>
+                            <img aria-colspan="ml" src="resource/eng-img-7.jpeg" alt="img" class="queueListImg ml">
+                            <p class="upper-line ml">Red Right Hand <br><span class="lower-line">Nick Caves</span>
+                            </p>
+                            <i class="fa-sharp fa-regular fa-heart queue-list-icon"></i>
+                            <i class="fa-solid fa-plus queue-list-icon"></i>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#" class="list">
+                            <span class="ml">15</span>
+                            <img aria-colspan="ml" src="resource/eng-img-8.jpeg" alt="img" class="queueListImg ml">
+                            <p class="upper-line ml">Daru Badnam <br><span class="lower-line">Param singh</span></p>
+                            <i class="fa-sharp fa-regular fa-heart queue-list-icon"></i>
+                            <i class="fa-solid fa-plus queue-list-icon"></i>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#" class="list">
+                            <span class="ml">16</span>
+                            <img aria-colspan="ml" src="resource/eng-img-9.jpeg" alt="img" class="queueListImg ml">
+                            <p class="upper-line ml">Roar <br><span class="lower-line">Katy Perry</span></p>
+                            <i class="fa-sharp fa-regular fa-heart queue-list-icon"></i>
+                            <i class="fa-solid fa-plus queue-list-icon"></i>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#" class="list">
+                            <span class="ml">17</span>
+                            <img aria-colspan="ml" src="resource/eng-img-10.jpeg" alt="img" class="queueListImg ml">
+                            <p class="upper-line ml">Glow Night <br><span class="lower-line">bear bear &
+                                    friends</span></p>
+                            <i class="fa-sharp fa-regular fa-heart queue-list-icon"></i>
+                            <i class="fa-solid fa-plus queue-list-icon"></i>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#" class="list">
+                            <span class="ml">18</span>
+                            <img aria-colspan="ml" src="resource/Arijit_Singh_0.jpg" alt="img" class="queueListImg ml">
+                            <p class="upper-line ml">Tum hi ho <br><span class="lower-line">Arjit Singh </span></p>
+                            <i class="fa-solid fa-plus queue-list-icon"></i>
+                            <i class="fa-sharp fa-regular fa-heart queue-list-icon"></i>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#" class="list">
+                            <span class="ml">19</span>
+                            <img aria-colspan="ml" src="resource/Badshah_005_20230608084021_500x500.jpg" alt="img"
+                                class="queueListImg ml">
+                            <p class="upper-line ml">Ladaki Kharab kar di <br><span class="lower-line">Badshah
+                                </span></p>
+                            <i class="fa-sharp fa-regular fa-heart queue-list-icon"></i>
+                            <i class="fa-solid fa-plus queue-list-icon"></i>
+                        </a>
+                    </div>
+                </div>
+                <!-- </div> -->
+            </div>
+        </div>
+        <div class="right">
+            <div id="right-container">
+                <div class="section">
+                    <div class="heading">
+                        <h2>Similar Artists</h2>
+                        <p>View All</p>
+                    </div>
+                    <div class="new-releases-content">
+                        <div class="new-releases-item">
+                            <div class="new-releases-img-container">
+                                <a href="#">
+                                    <img src="resource/Badshah_005_20230608084021_500x500.jpg" alt="img-song">
+                                </a>
+                            </div>
+                            <p class="upper-line ml">Badshah <br><span class="lower-line">Panjabi Singer</span></p>
+                            <div class="release-icon-container v-list-icon">
+                                <i class="fa-solid fa-ellipsis"><br><span class="lower-line time">4.44</span></i>
+                                <div class="popup2">
+                                    <div class="popup2-item">
+                                        <i class="fa-solid fa-grip-lines-vertical faxl"></i>
+                                        <p>Play Now</p>
+                                    </div>
+                                    <div class="popup2-item">
+                                        <i class="fa-solid fa-plus"></i>
+                                        <p>Add To Queue</p>
+                                    </div>
+                                    <div class="popup2-item">
+                                        <i class="fa-brands fa-gratipay"></i>
+                                        <p>Add To Favourites</p>
+                                    </div>
+                                    <div class="popup2-item">
+                                        <i class="fa-solid fa-circle-info"></i>
+                                        <p>Get Info</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="new-releases-item">
+                            <div class="new-releases-img-container">
+                                <a href="#">
+                                    <img src="resource/Neha_Kakkar_006_20200822042626_500x500.jpg" alt="img-song">
+                                </a>
+                            </div>
+                            <p class="upper-line ml">Neha Kakkar <br><span class="lower-line">Bollywood</span></p>
+                            <div class="release-icon-container v-list-icon">
+                                <i class="fa-solid fa-ellipsis"><br><span class="lower-line time">4.44</span></i>
+                                <div class="popup2">
+                                    <div class="popup2-item">
+                                        <i class="fa-solid fa-grip-lines-vertical faxl "></i>
+                                        <p>Play Now</p>
+                                    </div>
+                                    <div class="popup2-item">
+                                        <i class="fa-solid fa-plus"></i>
+                                        <p>Add To Queue</p>
+                                    </div>
+                                    <div class="popup2-item">
+                                        <i class="fa-brands fa-gratipay"></i>
+                                        <p>
+                                            Add To Favourites
+                                        </p>
+                                    </div>
+                                    <div class="popup2-item">
+                                        <i class="fa-solid fa-circle-info"></i>
+                                        <p>Get Info</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="new-releases-item">
+                            <div class="new-releases-img-container">
+                                <a href="#">
+                                    <img src="resource/Shreya_Ghoshal_004_20230228102304_500x500.jpg" alt="img-song">
+                                </a>
+                            </div>
+                            <p class="upper-line ml">Shreya Ghoshal <br><span class="lower-line">Hindi Artist</span></p>
+                            <div class="release-icon-container v-list-icon">
+                                <i class="fa-solid fa-ellipsis"><br><span class="lower-line time">4.44</span></i>
+                                <div class="popup2">
+                                    <div class="popup2-item">
+                                        <i class="fa-solid fa-grip-lines-vertical faxl "></i>
+                                        <p>Play Now</p>
+                                    </div>
+                                    <div class="popup2-item">
+                                        <i class="fa-solid fa-plus"></i>
+                                        <p>Add To Queue</p>
+                                    </div>
+                                    <div class="popup2-item">
+                                        <i class="fa-brands fa-gratipay"></i>
+                                        <p>
+                                            Add To Favourites
+                                        </p>
+                                    </div>
+                                    <div class="popup2-item">
+                                        <i class="fa-solid fa-circle-info"></i>
+                                        <p>Get Info</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="new-releases-item">
+                            <div class="new-releases-img-container">
+                                <a href="#">
+                                    <img src="resource/Armaan_Malik_003_20220107135753_500x500.jpg" alt="Artist">
+                                </a>
+                            </div>
+                            <p class="upper-line ml">Arman Mallik <br><span class="lower-line">Hindi Artist </span></p>
+                            <div class="release-icon-container v-list-icon">
+                                <i class="fa-solid fa-ellipsis"><br><span class="lower-line time">4.44</span></i>
+                                <div class="popup2">
+                                    <div class="popup2-item">
+                                        <i class="fa-solid fa-grip-lines-vertical faxl "></i>
+                                        <p>Play Now</p>
+                                    </div>
+                                    <div class="popup2-item">
+                                        <i class="fa-solid fa-plus"></i>
+                                        <p>Add To Queue</p>
+                                    </div>
+                                    <div class="popup2-item">
+                                        <i class="fa-brands fa-gratipay"></i>
+                                        <p>
+                                            Add To Favourite
+                                        </p>
+                                    </div>
+                                    <div class="popup2-item">
+                                        <i class="fa-solid fa-circle-info"></i>
+                                        <p>Get Info</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="heading">
+                        <h2>Recently Played</h2>
+                        <p>View All</p>
+                    </div>
+                    <div class="new-releases-content">
+                        <div>
+                            <a href="#" class="new-releases-item recently-played">
+                                <span class="ml">01</span>
+                                <img aria-colspan="ml" src="resource/hindi-img-1.jpeg" alt="img"
+                                    class="queueListImg ml">
+                                <p class="upper-line ml">Gadar-2 <br><span class="lower-line">Mithoon, Uttam
+                                        Singh</span></p>
+                                <i class="fa-sharp fa-regular fa-heart v-list-icon"></i>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#" class="new-releases-item recently-played">
+                                <span class="ml">02</span>
+                                <img aria-colspan="ml" src="resource/hindi-img-2.jpeg" alt="img"
+                                    class="queueListImg ml">
+                                <p class="upper-line ml">Alvida<br><span class="lower-line"> Nikhil D'Souza</span></p>
+                                <i class="fa-sharp fa-regular fa-heart v-list-icon"></i>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#" class="new-releases-item recently-played">
+                                <span class="ml">03</span>
+                                <img aria-colspan="ml" src="resource/eng-img-4.jpeg" alt="img" class="queueListImg ml">
+                                <p class="upper-line ml">Havana <br><span class="lower-line">Camila Cabillo</span></p>
+                                <i class="fa-sharp fa-regular fa-heart v-list-icon"></i>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#" class="new-releases-item recently-played">
+                                <span class="ml">04</span>
+                                <img aria-colspan="ml" src="resource/hindi-img-4.jpeg" alt="img"
+                                    class="queueListImg ml">
+                                <p class="upper-line ml">Pahali Dafa<br><span class="lower-line">Atif Aslam</span></p>
+                                <i class="fa-sharp fa-regular fa-heart v-list-icon"></i>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#" class="new-releases-item recently-played">
+                                <span class="ml">05</span>
+                                <img aria-colspan="ml" src="resource/hindi-img-5.jpeg" alt="img"
+                                    class="queueListImg ml">
+                                <p class="upper-line ml">Pathan<br><span class="lower-line">Arijit Singh, Sukriti Kakar
+                                    </span></p>
+                                <i class="fa-sharp fa-regular fa-heart v-list-icon"></i>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#" class="new-releases-item recently-played">
+                                <span class="ml">06</span>
+                                <img aria-colspan="ml" src="resource/hindi-img-6.jpeg" alt="img"
+                                    class="queueListImg ml">
+                                <p class="upper-line ml">Meri Galati<br><span class="lower-line">Ambili Menon</span></p>
+                                <i class="fa-sharp fa-regular fa-heart v-list-icon"></i>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#" class="new-releases-item recently-played">
+                                <span class="ml">07</span>
+                                <img aria-colspan="ml" src="resource/hindi-img-7.jpeg" alt="img"
+                                    class="queueListImg ml">
+                                <p class="upper-line ml">Marjjawa <br><span class="lower-line">Arijit Singh</span></p>
+                                <i class="fa-sharp fa-regular fa-heart v-list-icon"></i>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#" class="new-releases-item recently-played">
+                                <span class="ml">08</span>
+                                <img aria-colspan="ml" src="resource/eng-img-1.jpeg" alt="img" class="queueListImg ml">
+                                <p class="upper-line ml">KLOK <br><span class="lower-line">Tory Lanez </span></p>
+                                <i class="fa-sharp fa-regular fa-heart v-list-icon"></i>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#" class="new-releases-item recently-played">
+                                <span class="ml">09</span>
+                                <img aria-colspan="ml" src="resource/eng-img-2.jpeg" alt="img" class="queueListImg ml">
+                                <p class="upper-line ml">Party Night<br><span class="lower-line">One Direction</span>
+                                </p>
+                                <i class="fa-sharp fa-regular fa-heart v-list-icon"></i>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#" class="new-releases-item recently-played">
+                                <span class="ml">10</span>
+                                <img aria-colspan="ml" src="resource/eng-img-3.jpeg" alt="img" class="queueListImg ml">
+                                <p class="upper-line ml">you<br><span class="lower-line">Katy party </span></p>
+                                <i class="fa-sharp fa-regular fa-heart v-list-icon"></i>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#" class="new-releases-item recently-played">
+                                <span class="ml">11</span>
+                                <img aria-colspan="ml" src="resource/hindi-img-3.jpeg" alt="img"
+                                    class="queueListImg ml">
+                                <p class="upper-line ml">Kho Gaye <br><span class="lower-line">Taaruk Raina</span></p>
+                                <i class="fa-sharp fa-regular fa-heart v-list-icon"></i>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#" class="new-releases-item recently-played">
+                                <span class="ml">12</span>
+                                <img aria-colspan="ml" src="resource/eng-img-5.jpeg" alt="img" class="queueListImg ml">
+                                <p class="upper-line ml">Rockstar<br><span class="lower-line">Saulja Boys</span></p>
+                                <i class="fa-sharp fa-regular fa-heart v-list-icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- Audio-controller -->
+    <div class="audio-controller" id="master-player">
+        <div class="img-poster">
+            <img src="resource/eng-img-4.jpeg" alt="" id="poster-audio-controller">
+            <div class="content">
+                <p class="upper-line " id="audioControllerTittle">Havana</p>
+                <span class="lower-line " id="audioControllerArtistName">Camila Cabillo</span>
+            </div>
+            <div class="left-icon  icon">
+                <i class="fa-sharp fa-regular fa-heart"></i>
+                <i class="fa-sharp fa-solid fa-ban"></i>
+            </div>
+        </div>
+        <div class="center-part">
+            <div class="icon center-icon">
+                <i class="fa-solid fa-shuffle" id="shuffle"></i>
+                <i class="fa-solid fa-backward-step" id="prev"></i>
+                <i class="fa-regular fa-circle-play fa-2xl" id="audio-play"></i>
+                <i class="fa-solid fa-forward-step" id="next"></i>
+                <i class="fa-solid fa-repeat" id="repeat"></i>
+            </div>
+            <div class="seek-container">
+                <span id="currentStart">0.00</span>
+                <div class="bar">
+                    <input type="range" id="seek" min="0" max="100">
+                    <div class="bar2" id="bar2"></div>
+                    <div class="dot" id="dot"></div>
+                </div>
+                <span id="currentEnd">3.39</span>
+            </div>
+        </div>
+        <div class="right-part">
+            <i class="fa-regular fa-rectangle-list icon icon-right"></i>
+            <i class="fa-solid fa-music icon icon-right"></i>
+            <i class="fa-solid fa-volume-high icon icon-right"></i>
+            <div class="vol">
+                <input type="range" id="vol" min="0" max="100">
+                <div class="volBar" id="volBar"></div>
+                <div class="dot" id="volDot"></div>
+            </div>
+            <i class="fa-solid fa-up-right-and-down-left-from-center icon icon-right"></i>
+        </div>
+
+    </div>
+    <!-- script -->
+    <script src="music-control.js"></script>
+</body>
+
+</html>
